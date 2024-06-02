@@ -1,0 +1,86 @@
+body {
+    background-color: #8939;
+    font-family: "Montserrat", sans-serif;
+    color: #333;
+    margin: 20px;
+
+}
+
+.encabezado{
+    width: 75%;
+    padding: 0px 10em; 
+    display: flex;
+    justify-content: space-around;
+}
+
+.enlase{
+    border: #995 3px solid;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.enlase:hover{
+    
+    font-weight: bold;
+}
+
+.logo {
+    width: 50px;
+    border-radius: 15px;
+    
+}
+
+#contenedor {
+    margin: 5px;
+    padding: 15px;
+    display: flex;
+    text-align: center;
+}
+
+.main{
+    width: 75%;
+}
+
+section {
+    width: 25%;
+}
+
+footer{
+    text-align: center;
+    font-weight: bold;
+}
+
+h3 {
+    text-align: left;
+}
+
+#sobre_nosotros{
+    border: #995 3px outset;
+    border-radius: 8px;
+    box-shadow: 5px #000;
+    margin: 50px 15%;
+    padding: 25px;
+    text-align: center;
+}
+
+#form {
+    border: #995 3px outset;
+    border-radius: 8px;
+    box-shadow: 5px #000;
+    margin: 5% 10% 10% 10%;
+    padding: 10px 80px;
+    text-align: center;
+    
+}
+
+button {
+    border: #995 3px outset;
+    border-radius: 5px;
+    height: 50px;
+    width: 100px;
+}
+
+.elementos{
+    padding: 10px;
+}

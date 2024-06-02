@@ -1,43 +1,53 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Primer Sitio Web</title>
-</head>
-<body>
-    <!--Contenido de la página va aqui-->
-    <header>
-        <a href="index.html"><img src="Imagenes/logo.jpeg" href="index.html" alt="logo"></a>
-        <a href="contacto.html">CONTACTO</a>
-        <a href="sobre_nosotros.html">SOBRE NOSOTROS</a>
-    </header>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mi Primer Sitio Web</title>
+        <link rel="stylesheet" href="estilo.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        
+    </head>
+    <body>
+        <!--Contenido de la página va aqui-->
+        <header>
+            <a href="index.html"><img class="logo" src="Imagenes/logo.jpeg" alt="logo"></a>
+            <div class="encabezado">
+                <a class="enlase" href="index.html">HOME</a>
+                <a class="enlase" href="contacto.html">CONTACTO</a>
+                <a class="enlase" href="sobre_nosotros.html">SOBRE NOSOTROS</a>
+            </div>
+    
+        </header>
+    
 
-    <main>
-        <form action="">
-            <div>
-                <label for="nombre">Nombre</label>
-                <input type="text" name="nombre">
-            </div>
-            <div>
-                <label for="mail">Correo Electronico</label>
-                <input type="email" name="mail">
-            </div>
-            <div>
-                <label for="cel">Telefono</label>
-                <input type="number" name="cel">
-            </div>
-            <div>
-                <label for="comentario">Comentario</label>
-                <textarea name="comentario" id=""></textarea>
-            </div>
-            <button type="">Enviar</button>
-            <button type="reset">Borrar</button>
-        </form>
-    </main>
+        <main>
+            <form id="form">
+                <div class="elementos">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre">
+                </div>
+                <div class="elementos">
+                    <label for="mail">Correo Electronico</label>
+                    <input type="email" name="mail">
+                </div>
+                <div class="elementos">
+                    <label for="cel">Telefono</label>
+                    <input type="number" name="cel">
+                </div>
+                <div class="elementos">
+                    <label for="comentario">Comentario</label>
+                    <textarea name="comentario" id=""></textarea>
+                </div>
+                <button type="">Enviar</button>
+                <button type="reset">Borrar</button>
+            </form>
+        </main>
 
-    <footer>
-        <p>Todos los derechos reservados</p>
-    </footer>
-</body>
+        <footer>
+            <p>Todos los derechos reservados</p>
+        </footer>
+    </body>
 </html>

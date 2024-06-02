@@ -4,46 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Primer Sitio Web</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <!--Contenido de la página va aqui-->
     <header>
-        <a href="index.html"><img src="Imagenes/logo.jpeg" alt="logo"></a>
-        <a href="contacto.html">CONTACTO</a>
-        <a href="sobre_nosotros.html">SOBRE NOSOTROS</a>
+        <a href="index.html"><img class="logo" src="Imagenes/logo.jpeg" alt="logo"></a>
+        <div class="encabezado">
+            <a class="enlase" href="index.html">HOME</a>
+            <a class="enlase" href="contacto.html">CONTACTO</a>
+            <a class="enlase" href="sobre_nosotros.html">SOBRE NOSOTROS</a>
+        </div>
+
     </header>
 
-    <main>
-        <div>
-            <h3>Psicología</h3>
-            <h1>Mejora por defecto: ¿qué es y que factores influyen?</h1>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita id optio iste voluptas suscipit impedit quia sunt nihil 
-                minima necessitatibus, deserunt sit voluptatem aspernatur itaque fugit aliquid voluptate atque libero.
-            </p>
-        </div>
-        <div>
-            <h3>Psicología Clínica</h3>
-            <h1>Disnea por Ansiedad: ¿qué es y cómo afrontarla?</h1>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita id optio iste voluptas suscipit impedit quia sunt nihil   minima necessitatibus, deserunt sit voluptatem aspernatur itaque fugit aliquid voluptate atque libero.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem minima culpa vel consequuntur illum dolorum explicabo 
-                sapiente nobis aperiam iusto dolore, earum fuga sed commodi molestias nam quae neque. Maiores?
-            </p>
-        </div>
-    </main>
+    <div id="contenedor">
+        <main class="main">
+            <div>
+                <h3>Psicología</h3>
+                <h1>Mejora por defecto: ¿qué es y que factores influyen?</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita id optio iste voluptas suscipit impedit quia sunt nihil 
+                    minima necessitatibus, deserunt sit voluptatem aspernatur itaque fugit aliquid voluptate atque libero.
+                </p>
+            </div>
+            <div>
+                <h3>Psicología Clínica</h3>
+                <h1>Disnea por Ansiedad: ¿qué es y cómo afrontarla?</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita id optio iste voluptas suscipit impedit quia sunt nihil   minima necessitatibus, deserunt sit voluptatem aspernatur itaque fugit aliquid voluptate atque libero.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem minima culpa vel consequuntur illum dolorum explicabo 
+                    sapiente nobis aperiam iusto dolore, earum fuga sed commodi molestias nam quae neque. Maiores?
+                </p>
+            </div>
+        </main>
 
-    <section>
-        <h2>Ultimos Articulos</h2>
-        <ul>
-            <li>
-                <h3>Cómo gestionar la ansiedad ante los exámenes</h3>
-            </li>
-            <li>
-                <h3>Salud Comunitaria con las infancias</h3>
-            </li>
-        </ul>
-    </section>
+        <section>
+            <h2>Ultimos Articulos</h2>
+            <ul>
+                <li>
+                    <h3>Cómo gestionar la ansiedad ante los exámenes</h3>
+                </li>
+                <li>
+                    <h3>Salud Comunitaria con las infancias</h3>
+                </li>
+            </ul>
+        </section>
+    
+    </div>
 
     <footer>
         <p>Todos los derechos reservados</p>
